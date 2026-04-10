@@ -29,7 +29,7 @@ class TaskController extends Controller
     }
 
     public function store(StoreTaskRequest $request): RedirectResponse
-    {
+    { 
         $this->taskService->createTask($request->validated());
 
         return redirect()->route('tasks.index')
