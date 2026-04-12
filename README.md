@@ -9,7 +9,7 @@ A simple and clean task management system built for the Qtec Solution Limited Fu
 - Laravel 11  
 - Blade Templates  
 - Tailwind CSS  
-- SQLite (development) / MySQL (production)  
+- MySql Database
 - PHPUnit  
 
 ---
